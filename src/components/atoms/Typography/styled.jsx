@@ -1,30 +1,32 @@
 import styled, { css } from "styled-components";
 
-export const Box = styled.div`
+export const Typography = styled.p`
   ${({
-    bg,
-    wrap,
+    family,
     width,
     justify,
     align,
     height,
     direction,
-    shadow,
     color,
+    fontWeight,
+    fontSize,
+    lineHeight,
     margin,
     padding,
-}) => css`
-    background-color: ${bg};
+  }) => css`
     width: ${width};
     height: ${height};
+    font-size: ${fontSize};
+    font-weight: ${fontWeight};
+    line-height: ${lineHeight};
     display: flex;
-    flex-wrap: ${wrap};
     flex-direction: ${direction};
     justify-content: ${justify};
     align-items: ${align};
-    box-shadow: ${shadow};
     color: ${color};
     margin: ${margin};
     padding: ${padding};
+    font-family: ${family};
   `}
 `;

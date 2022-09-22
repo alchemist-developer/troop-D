@@ -13,6 +13,8 @@ const Box = ({
     margin,
     padding,
     children,
+    position,
+    gap,
 }) => {
     return (
         <S.Box
@@ -27,6 +29,8 @@ const Box = ({
             direction={direction}
             shadow={shadow}
             flex-wrap={wrap}
+            position={position}
+            gap={gap}
         >
             {children}
         </S.Box>
