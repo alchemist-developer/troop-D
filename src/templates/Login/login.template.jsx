@@ -23,16 +23,17 @@ export default function LoginTemplate() {
                 bg={theme.colors.secondaryColor}
                 width="857px"
                 height="512px"
-                
             >
                 <Box width="50%" direction="column" align="center" justify="center" >
 
                     <Box direction="column" width="350px" gap="55px">
+
                         <LogoTropa width="259px" height="77.54px" />
 
                         <Box>
 
                             <Box direction="column" gap="10px">
+
                                 <Typography fontSize="1.5em" fontWeight="bold" color={theme.colors.quartenaryColor} margin="0 0 20px 0" text={["Bem Vindo ao", <span style={{ color: theme.colors.primaryColor }} > painel</span>]} />
                                 <Input type="email" placeholder="Digite seu e-mail" />
                                 <Input type="password" placeholder="Digite sua senha" />
@@ -45,9 +46,8 @@ export default function LoginTemplate() {
 
                             </Box>
 
-
-
                         </Box>
+
                     </Box>
 
                 </Box>
