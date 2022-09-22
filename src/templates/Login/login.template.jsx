@@ -2,7 +2,7 @@ import Box from "../../components/atoms/Box";
 import { theme } from "../../styles/theme";
 
 
-export default function Login() {
+export default function LoginTemplate() {
     return (
 
         <Box
