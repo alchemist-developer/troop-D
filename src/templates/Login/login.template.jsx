@@ -41,7 +41,7 @@ export default function LoginTemplate() {
 
                                 <Box>
                                     <Box>
-                                        <Button type="submit" onClick={() => {}} href="/dashboard" familyFont={theme.font.family.secondary} color={theme.colors.secondaryColor} width="150px" height="40px" bg={theme.colors.tertiaryColor} text="Acessar" />
+                                        <Button type="submit" onClick={() => {}} href="/dashboard" justify="center" familyFont={theme.font.family.secondary} color={theme.colors.secondaryColor} width="150px" height="40px" bg={theme.colors.tertiaryColor} text="Acessar" />
                                     </Box>
                                 </Box>
 
