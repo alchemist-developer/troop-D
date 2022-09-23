@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-title-in-document-head */
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import { ServerStyleSheet } from "styled-components";
 
@@ -27,7 +28,7 @@ export default class MyDocument extends Document {
             <Html lang="pt-BR">
 
                 <Head>
-                    <link rel="shortcut icon" href="" />
+                    <link rel="shortcut icon" href="../../public/static/favicon.ico" />
                     <meta name="description" content="Tropa.Digital" />
                 </Head>
 

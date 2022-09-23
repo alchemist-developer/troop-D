@@ -1,8 +1,7 @@
+import LoginTemplate from "../templates/Login/login.template";
 
-export default function Home() {
+export default function LoginPage() {
   return (
-    <div>
-      <h1>Im here</h1>
-    </div>
+    <LoginTemplate />
   )
 }
