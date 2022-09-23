@@ -2,14 +2,14 @@ import styled, { css } from "styled-components";
 import { theme } from "../../../styles/theme";
 
 export const Button = styled.a`
-  ${({ bg, margin, padding, width, height, shadow, color, familyFont }) => css`
+  ${({ align, bg, margin, padding, width, height, shadow, color, familyFont }) => css`
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     width: ${width};
     height: ${height};
-    border-radius: 4px;
+    border-radius: 5px;
     color: ${color};
     background-color: ${bg};
     margin: ${margin};
@@ -20,9 +20,16 @@ export const Button = styled.a`
     border: 0;
     outline: 0;
     text-decoration: none;
-    trasition: 0.3s;
+    text-align: ${align};
+    box-shadow: 2px 2px 2px 2px ${theme.colors.quinaryColor};
+    transition: 0.5s;
     &:active {
      color: ${theme.colors.primaryColor};
+    }
+    &:hover {
+      background-color: ${theme.colors.secondaryColor};
+      color: ${theme.colors.senaryColor};
+      box-shadow: 2px 2px 2px 2px ${theme.colors.quinaryColor};
     }
   `}
 `;

@@ -14,6 +14,8 @@ export const Typography = styled.p`
     lineHeight,
     margin,
     padding,
+    spacing,
+    
   }) => css`
     width: ${width};
     height: ${height};
@@ -28,5 +30,6 @@ export const Typography = styled.p`
     margin: ${margin};
     padding: ${padding};
     font-family: ${family};
+    letter-spacing: ${spacing};
   `}
 `;

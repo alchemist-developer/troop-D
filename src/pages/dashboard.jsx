@@ -1,8 +1,8 @@
+import DashboardTemplate from "../templates/Dashboard/dashboard.template";
+
 
 export default function DashboardPage() {
   return (
-    <div>
-      <h1>Im here</h1>
-    </div>
+    <DashboardTemplate />
   )
 }

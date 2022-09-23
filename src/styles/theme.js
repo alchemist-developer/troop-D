@@ -4,6 +4,8 @@ export const theme = {
         secondaryColor: "#F3F3F3",
         tertiaryColor: "#2EAFB2",
         quartenaryColor: "#AAAAAA",
+        quinaryColor: "#E5E5E5",
+        senaryColor: "#000000",
     },
     font: {
         family: {

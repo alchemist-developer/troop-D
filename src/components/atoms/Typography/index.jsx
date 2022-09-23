@@ -13,6 +13,7 @@ const Typography = ({
     fontWeight,
     fontSize,
     lineHeight,
+    spacing,
     ...props
 }) => {
     return (
@@ -29,6 +30,7 @@ const Typography = ({
             fontWeight={fontWeight}
             fontSize={fontSize}
             lineHeight={lineHeight}
+            letter-spacing={spacing}
         >
             {props.text}
         </S.Typography>
