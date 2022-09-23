@@ -1,6 +1,7 @@
+/* eslint-disable react/jsx-key */
 import Box from "../../components/atoms/Box";
 import { theme } from "../../styles/theme";
-import LogoTropa from "../../components/atoms/Logo";
+import LogoTropa from "../../components/atoms/LogoTropa";
 import Typography from "../../components/atoms/Typography";
 import Input from "../../components/atoms/InputText";
 import Button from "../../components/molecules/Button";
@@ -26,7 +27,7 @@ export default function LoginTemplate() {
             >
                 <Box width="50%" direction="column" align="center" justify="center" >
 
-                    <Box direction="column" width="350px" gap="55px">
+                    <Box direction="column" width="350px" gap="60px">
 
                         <LogoTropa width="259px" height="77.54px" />
 
@@ -40,7 +41,7 @@ export default function LoginTemplate() {
 
                                 <Box>
                                     <Box>
-                                        <Button href="/dashboard" familyFont={theme.font.family.secondary} color={theme.colors.secondaryColor} width="150px" height="40px" bg={theme.colors.tertiaryColor} text="Acessar" />
+                                        <Button type="submit" onClick={() => {}} href="/dashboard" familyFont={theme.font.family.secondary} color={theme.colors.secondaryColor} width="150px" height="40px" bg={theme.colors.tertiaryColor} text="Acessar" />
                                     </Box>
                                 </Box>
 

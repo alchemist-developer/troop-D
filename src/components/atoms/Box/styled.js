@@ -15,6 +15,7 @@ export const Box = styled.div`
     padding,
     position,
     gap,
+    radius,
 }) => css`
     background-color: ${bg};
     width: ${width};
@@ -29,6 +30,7 @@ export const Box = styled.div`
     margin: ${margin};
     padding: ${padding};
     position: ${position};
+    border-radius: ${radius};
     gap: ${gap};
   `}
 `;

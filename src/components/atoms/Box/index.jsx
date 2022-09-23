@@ -14,6 +14,7 @@ const Box = ({
     padding,
     children,
     position,
+    radius,
     gap,
 }) => {
     return (
@@ -31,6 +32,7 @@ const Box = ({
             flex-wrap={wrap}
             position={position}
             gap={gap}
+            radius={radius}
         >
             {children}
         </S.Box>
