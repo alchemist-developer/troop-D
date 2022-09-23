@@ -18,8 +18,8 @@ export default function CardList() {
                     <Box position="relative" key={Obj.id} gap="5px" justify="center" align="center" direction="column" shadow={`0px 2px 5px 1px ${theme.colors.quartenaryColor}`} width="500px" height="228px" bg={theme.colors.secondaryColor} radius="8px" >
 
                         <S.Calendar>
-                        <Image width="16px" src={calendar} alt="icone calendario" />
-                        <p>2min atrás</p>
+                            <Image width="16px" src={calendar} alt="icone calendario" />
+                            <p>2min atrás</p>
                         </S.Calendar>
                         <Image src={CardImage} alt="card image" />
 
