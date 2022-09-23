@@ -31,7 +31,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 <br/><br/>
 
 ![image](https://user-images.githubusercontent.com/88943961/191906359-b82dc265-f83f-4f9b-b861-27dcf462b716.png)
-![image](https://user-images.githubusercontent.com/88943961/191906457-cede7931-6d68-4143-b570-fc79712901a2.png)
+![image](https://user-images.githubusercontent.com/88943961/191917237-8ee1c41c-8942-46e3-9ffd-7e97f10573af.png)
 
 ## Learn More
 
