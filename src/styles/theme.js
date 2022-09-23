@@ -11,4 +11,6 @@ export const theme = {
         family: {
             default: "'Advent Pro', sans-serif",
             secondary: "'Roboto', sans-serif",
-        }}};
+        }
+    }
+};

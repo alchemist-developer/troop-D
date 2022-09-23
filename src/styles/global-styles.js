@@ -20,6 +20,15 @@ export const GlobalStyles = createGlobalStyle`
     text-decoration: none;
  }
 
-  `
+ .fading {
+  background: 
+     linear-gradient(90deg, transparent, orange, #2EAFB2, transparent) 
+    bottom /var(--d, 0) 1px no-repeat;
+  transition: 0.5s;
+}
+.fading:hover {
+  --d: 100%;
+}
 
+  `
   ;

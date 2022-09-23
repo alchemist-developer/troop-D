@@ -2,10 +2,10 @@ import styled, { css } from "styled-components";
 import { theme } from "../../../styles/theme";
 
 export const Button = styled.a`
-  ${({ align, bg, margin, padding, width, height, shadow, color, familyFont }) => css`
+  ${({ align, bg, margin, padding, width, height, shadow, color, familyFont, justify }) => css`
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: ${justify};
     align-items: center;
     width: ${width};
     height: ${height};
@@ -28,7 +28,7 @@ export const Button = styled.a`
     }
     &:hover {
       background-color: ${theme.colors.secondaryColor};
-      color: ${theme.colors.senaryColor};
+      color: ${theme.colors.primaryColor};
       box-shadow: 2px 2px 2px 2px ${theme.colors.quinaryColor};
     }
   `}
