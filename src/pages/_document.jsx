@@ -30,7 +30,6 @@ export default class MyDocument extends Document {
                 <Head>
                     <link rel="shortcut icon" href="../../public/static/favicon.ico" />
                     <meta name="description" content="Tropa.Digital" />
-                    <title>Tropa.Digital</title>
                 </Head>
 
                 <body>
