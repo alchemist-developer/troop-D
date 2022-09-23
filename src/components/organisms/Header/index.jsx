@@ -12,7 +12,7 @@ export default function Header() {
 
         <>
             <Box height="104px" direction="column">
-                
+
                 <header>
                     <Typography spacing="100px" fontSize="1.6em" text={["Olá, ", <strong>usuário</strong>]} color={theme.colors.quartenaryColor} />
                     <S.Divisor />

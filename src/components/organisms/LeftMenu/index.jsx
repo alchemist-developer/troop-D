@@ -11,10 +11,10 @@ export default function LeftMenu() {
         <Box>
             <aside>
                 <Box direction="column" gap="50px">
-                    <LogoTropa/>
+                    <LogoTropa />
 
                     <Box direction="column">
-                        <ButtonsList/>
+                        <ButtonsList />
                     </Box>
 
                 </Box>
