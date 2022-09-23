@@ -6,6 +6,7 @@ import Typography from "../../components/atoms/Typography";
 import Input from "../../components/atoms/InputText";
 import Button from "../../components/molecules/Button";
 import IllustrateForm from "../../components/molecules/IllustrateForm";
+import Head from "next/head";
 
 
 
@@ -20,6 +21,10 @@ export default function LoginTemplate() {
             align="center"
             direction="column"
         >
+            <Head>
+                <title>Tropa.Digital | Login</title>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            </Head>
             <Box
                 bg={theme.colors.secondaryColor}
                 width="857px"
@@ -41,7 +46,7 @@ export default function LoginTemplate() {
 
                                 <Box>
                                     <Box>
-                                        <Button type="submit" onClick={() => {}} href="/dashboard" justify="center" familyFont={theme.font.family.secondary} color={theme.colors.secondaryColor} width="150px" height="40px" bg={theme.colors.tertiaryColor} text="Acessar" />
+                                        <Button type="submit" onClick={() => { }} href="/dashboard" justify="center" familyFont={theme.font.family.secondary} color={theme.colors.secondaryColor} width="150px" height="40px" bg={theme.colors.tertiaryColor} text="Acessar" />
                                     </Box>
                                 </Box>
 
