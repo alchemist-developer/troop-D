@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { theme } from "../../../styles/theme";
 
-
 export const Input = styled.input`
     width: 313px;
     height: 44px;

@@ -26,17 +26,14 @@ export default class MyDocument extends Document {
     render() {
         return (
             <Html lang="pt-BR">
-
                 <Head>
                     <link rel="shortcut icon" href="../../public/static/favicon.ico" />
                     <meta name="description" content="Tropa.Digital" />
                 </Head>
-
                 <body>
                     <Main />
                     <NextScript />
                 </body>
-
             </Html>
         );
     }

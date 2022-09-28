@@ -7,11 +7,9 @@ import Head from "next/head"
 import { theme } from "../../styles/theme";
 import * as S from "./dashboard.styled";
 
-
 export default function DashboardTemplate() {
 
     return (
-
         <S.GridParent>
             <Head>
                 <title>Tropa.Digital | Dashboard</title>
@@ -26,10 +24,6 @@ export default function DashboardTemplate() {
                 <Header />
                 <CardList />
             </Box>
-
-
-
         </S.GridParent>
-
     );
 }

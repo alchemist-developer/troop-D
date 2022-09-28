@@ -8,12 +8,9 @@ export default function IllustrateForm() {
     return (
         <S.Parent>
             <Image src={BgForm} alt="background form" />
-         
             <S.Child>
-         <Image src={Illustrate} alt="ilustração form, notebook" />
+             <Image src={Illustrate} alt="ilustração form, notebook" />
             </S.Child>
          </S.Parent>
-
-
     )
 }

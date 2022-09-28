@@ -5,7 +5,6 @@ export const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
   }
   html {
     font-size: 65.5%;
@@ -23,13 +22,10 @@ export const GlobalStyles = createGlobalStyle`
 
  .fading {
   background: 
-     linear-gradient(90deg, transparent, orange, #2EAFB2, transparent) 
-    bottom /var(--d, 0) 1px no-repeat;
+  linear-gradient(90deg, transparent, orange, #2EAFB2, transparent) 
+  bottom /var(--d, 0) 1px no-repeat;
   transition: 0.5s;
 }
 .fading:hover {
   --d: 100%;
-}
-
-  `
-  ;
+}`;
